@@ -1,0 +1,10 @@
+# <IfModule mod_rewrite.c>
+#   Options +FollowSymLinks
+#   RewriteEngine On
+
+#   RewriteCond %{REQUEST_FILENAME}.php -f
+#   RewriteRule ^/?([a-zA-Z0-9]+)$ $1.php [L]
+
+#   RewriteCond %{REQUEST_FILENAME}.html -f
+#   RewriteRule ^/?([a-zA-Z0-9]+)$ $1.html [L]
+# </IfModule>
